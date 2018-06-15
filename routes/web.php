@@ -15,8 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/prabek',function (){
-
-	$prabeks=['hello'];
-	return view('prabek',compact('prabeks'));
-});
+Route::get('/prabek','PrabekController@prabekview');
+Route::resource('students','StudentController');

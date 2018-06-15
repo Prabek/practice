@@ -5,9 +5,7 @@
 </head>
 <body>
 
-@foreach($prabeks as $prabek)
-{{ $prabek }}
-@endforeach
+gusguguafasufasfsaufsafs
 
 </body>
 </html>
